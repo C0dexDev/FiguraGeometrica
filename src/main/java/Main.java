@@ -8,6 +8,7 @@ public class Main {
         try{
             circulo = new Circulo(2);
             rectangulo = new Rectangulo(2, 2);
+            rectanguloMal = new Rectangulo(-2, 2);
         }catch(IllegalArgumentException e){
             throw new Exception("Alguna de las figuras es inválida. ERROR: \n"+e);
         }
