@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FiguraGeometricaTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2025-05-09T00:50:47" hostname="codex-pc" time="0.021">
+  <properties/>
+  <testcase name="test()" classname="FiguraGeometricaTest" time="0.018">
+    <failure message="org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.UnsupportedOperationException&gt; but was: &lt;java.lang.IllegalArgumentException&gt;" type="org.opentest4j.AssertionFailedError">org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: &lt;java.lang.UnsupportedOperationException&gt; but was: &lt;java.lang.IllegalArgumentException&gt;
+	at app//org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at app//org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at app//org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3115)
+	at app//FiguraGeometricaTest.test(FiguraGeometricaTest.java:10)
+	at java.base@21.0.6/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base@21.0.6/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base@21.0.6/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.IllegalArgumentException: El parámetro debe ser mayor a cero.
+	at Rectangulo.test(Rectangulo.java:23)
+	at FiguraGeometricaTest.lambda$test$0(FiguraGeometricaTest.java:10)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+</failure>
+  </testcase>
+  <testcase name="test1()" classname="FiguraGeometricaTest" time="0.001"/>
+  <testcase name="test2()" classname="FiguraGeometricaTest" time="0.0"/>
+  <system-out><![CDATA[Figura geométrica inicializada.
+Figura geométrica inicializada.
+Figura geométrica inicializada.
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
